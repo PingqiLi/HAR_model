@@ -1,0 +1,20 @@
+{
+    "num_layers": 3,
+    "embed_dim": 128,
+    "fc_dim": 256,
+    "num_heads": 6,
+    "num_classes": 14,
+    "dropout_rate": 0.1,
+    "attention_dropout_rate": 0.1,
+
+    "optimizer": "adam",
+    "global_clipnorm": 3,
+    "amsgrad": false,
+
+    "label_smoothing": 0.1,
+
+    "epochs": 80,
+    "learning_rate": 0.001,
+    "batch_size": 64,
+    "warmup_steps": 10
+}
